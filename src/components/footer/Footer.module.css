@@ -1,0 +1,29 @@
+.footer {
+   display: flex;
+   justify-content: space-between;
+   padding: 0 20px;
+   height: 55px;
+   line-height: 55px;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   color: #FFFFFF;
+   background-color: #0067A3;
+}
+
+.statistics {
+   display: flex;
+   justify-content: space-between;
+   width: 340px;
+}
+
+.finished {
+   
+}
+
+@media (max-width: 450px) {
+   .footer {
+      display: none;
+   }
+   
+}

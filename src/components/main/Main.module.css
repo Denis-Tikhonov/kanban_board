@@ -1,0 +1,34 @@
+.main {  
+   position: relative;
+   height: 100%;
+   background-color: #0079BF;
+}
+
+.taskList {
+   max-width: 1200px;
+   min-height: 590px;
+   margin: auto;
+   padding: 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   flex-wrap: wrap;
+}
+
+.taskContent {
+   position: absolute;
+   top: 20px;
+   right: 0;
+   width: 100%;
+   height: 90%;
+   pointer-events: none;
+}
+
+@media (max-width: 450px) {
+   .taskList {
+      min-height: 1200px;
+      padding: 102px 21px 50px;
+
+   }
+   
+}
